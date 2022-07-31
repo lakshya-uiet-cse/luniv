@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+    <div class="container">
+        <h1>GET IN TOUCH</h1>
+        <p>Have any questions or suggestions? Drop us a message</p>
+        <form onsubmit="validForm()">
+            <div class="row">
+                <div class="column">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Name in lowercase [a-z]" pattern="[a-z]{1-15}" required >
+                </div>
+                <div class="column">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email here" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" placeholder="Your subject here" required>
+                </div>
+                <div class="column">
+                    <label for="contact">Contact Number</label>
+                    <input type="tel" id="contact" placeholder="Your phone number here" maxlength="10" pattern="[0-9]{10}" required >
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <label for="issue">Describe your issue in 1000 words</label>
+                    <textarea id="issue" placeholder="Describe your issue in detail here" rows="3" maxlength="1000" required></textarea>
+                </div>
+            </div>
+            
+            <button type="submit">
+                Submit
+                 </button>
+        </form>
+      
+    </div>
+</body>
+</html>

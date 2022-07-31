@@ -1,0 +1,658 @@
+
+    .top{
+        background-color: #284594;
+        overflow: auto;
+    }
+    h1{
+    background-color: #284594;
+    font-weight: bold;
+    color: white;
+    text-align:center;
+    text-decoration: none;
+    
+    }
+    
+    .topnav {
+      overflow: auto;  
+      background-color:#284594;
+        padding-left: 14.5rem;
+        align-items: center;
+        text-decoration: none;
+        /* padding-right: 12.5rem; */
+      }
+      #navig{
+
+        text-decoration: none;
+        text-align: center;
+
+      }
+      /* Navbar links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 30px 30px 30px ;
+        padding-left: 50px;
+        
+        
+    
+        
+        
+      }
+      
+      /* Links - change color on hover */
+      .sticky{
+        position: fixed;
+      }
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+    
+      * {box-sizing:border-box}
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      /* margin-top: -22px; */
+      padding: 16px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    /* Caption text */
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+    }
+    
+    /* The dots/bullets/indicators */
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    /* Fading animation */
+    .fade {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @keyframes fade {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
+    #campus-tour{
+
+background-color: #8894b6;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+text-align: center;
+color: white;
+}
+h2{
+ size: 3rem;
+
+
+}
+.award{
+    overflow:"auto";
+    /* background-color: rgba(31, 55, 134, 0.8); */
+    color: white;
+
+
+}
+
+
+
+
+
+.container {
+  border: 2px solid ;
+  background-color: rgba(173, 159, 206, 0.8);
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+  
+
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+
+
+
+/* testimonials */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+}
+.testimonials{
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: #fff;
+  padding: 30px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+
+
+@media screen and (max-width:960px) {
+.col{
+  flex: 100%;
+  max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col{
+  flex: 100%;
+  max-width: 100%;
+}
+}
+ 
+#testimon{
+
+background-color: #fff;
+
+color:#284594
+}
+
+/* table  */
+
+* { 
+  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.row {
+  display: flex;
+  /* background-color: #397ef6; */
+  flex-wrap: wrap;
+}
+.row h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3.75em;
+  margin: 0.6em 0;
+  font-weight: 600;
+  color: #070024;
+}
+.column {
+  padding: 1em;
+}
+.card {
+  padding: 3.1em 1.25em;
+  text-align: center;
+  background: linear-gradient(0deg, #397ef6 10px, transparent 10px);
+  background-repeat: no-repeat;
+  background-position: 0 0.62em;
+  box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
+  border-radius: 0.5em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.card .icon {
+  font-size: 2.5em;
+  height: 2em;
+  width: 2em;
+  margin: auto;
+  background-color: #397ef6;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.icon:before {
+  position: absolute;
+  content: "";
+  height: 1.5em;
+  width: 1.5em;
+  border: 0.12em solid #397ef6;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.card h3 {
+  font-size: 1.3em;
+  margin: 1em 0 1.4em 0;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: #070024;
+}
+.card p {
+  line-height: 2em;
+  color: #625a71;
+}
+.card:hover {
+  background-position: 0;
+}
+.card:hover .icon:before {
+  height: 2.25em;
+  width: 2.25em;
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 1em 7em;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em;
+  }
+  .card {
+    padding: 5em 2em;
+  }
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+  }
+}
+
+
+#frm{
+
+  padding-left:200px;
+  padding-top: 150px;
+  padding-right: 100px;
+}
+
+#lak{
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+#SLIDE{
+
+height: 1000px;
+
+
+}
+
+
+#foot{
+height: 100px;
+background-color: #284594;
+text-align: center;
+padding-left: 4rem;
+padding-right: 4rem;
+
+}
+
+#foot-ic{
+align-items: center;
+padding-top: 20rem;
+  border-color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+.reviews {
+  width : 600px; 
+  height : 150px;
+  overflow : hidden ;
+  background-color : #fff ;
+  border-radius : 5px;
+  margin : 50px auto ;
+  position : relative ;
+  box-shadow : 0 0 10px -2px #ddd ;
+}
+.panel {
+  width : 100%;
+  max-height: 100%;
+  position : absolute ; 
+}
+.PanelAct {
+  left : 0 ;
+}
+.panel img { 
+  width : 100px;
+  height : 100px; 
+  text-align : center ;
+  float : left ; 
+  margin : 25px; 
+}
+/*== Removal Start
+png images background
+==*/
+.panel:nth-of-type(1) img {
+    background : #12aedb ;
+}
+.panel:nth-of-type(2) img {
+    background : #db4646 ;
+}
+.panel:nth-of-type(3) img {
+    background : #96c465 ;
+}
+/*== Removal End==*/
+
+.panel p {
+  float : left ; 
+  width : 420px;
+  clear : right ;
+  text-align : justify ;
+  margin : 25px 0 10px 0;
+  font-size : 14px ; 
+  color : #aaa ;
+  line-height : 1.2em
+}
+.panel h7 { 
+  float : left ; 
+  width: 200px; 
+  font-size : 14px ; 
+  color : #999 ;
+  font-weight : bold ;
+  font-style : italic ;
+}
+.control { 
+  position : absolute ; 
+  bottom : 20px; 
+  right : 30px;
+}
+.control span {
+  background-color : rgba(0,0,0,0.1) ; 
+  padding : 5px; 
+  display : inline-block ;
+  vertical-align : top ;
+  margin-left : 5px ;
+  border-radius : 50%;
+  cursor : pointer ;
+  transition : 0.3s ease-in
+}
+.ContActive {
+  background-color : #bbb !important ;
+}
+#almrev{
+
+  color: white;
+}
+
+
+#alumni{ 
+  background-color: #284594;
+  display: flex;
+color: white;
+
+
+} 
+  
+.flex-container {
+display: flex;
+background-color: DodgerBlue;
+}
+
+.flex-container > div {
+/* background-color: #f1f1f1; */
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+
+
+#cm1,#cm2{
+height: 500px;
+padding-left: 20rem;
+/* background-color : #bbb ; */
+
+}
+#testimonials{
+  background-color:  #bbb;
+}
+.carousel-inner{
+  background-color:  #bbb;
+
+
+}
+
+* {box-sizing: border-box;}
+
+/* Style the Headings that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin: 0;
+  font-weight: 300;
+}
+
+/* Change color of the heading and icon (on hover and click) */
+.active, .accordion:hover, .accordion:hover::after {
+  background-color: #007eff;
+  color: white;
+}
+
+/* Add "plus" sign (+) after Accordion */
+.accordion::after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+}
+
+/* Add "minus" sign (-) after Accordion (when accordion is active) */
+.active::after {
+  content: "\2212";
+  color: white;
+}
+
+/* Style the accordion panel */
+.accordion-panel {
+  padding: 0 18px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
